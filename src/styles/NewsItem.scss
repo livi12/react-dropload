@@ -1,0 +1,113 @@
+@import "./variables.scss"; 
+.section_item {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 10rem / $font-base-unit; 
+    height: 110rem / $font-base-unit; 
+    overflow: hidden;
+    background-color: #fff;  
+}
+.section_item_container {  
+	float: left;
+    width: 150rem / $font-base-unit; 
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat; 
+	text-align:center; 
+	display:block;
+}
+
+.section_item_container .lable {
+    position: absolute;
+    top: 8rem / $font-base-unit; 
+    left: -20rem / $font-base-unit; 
+    width:70rem / $font-base-unit; 
+    height: 18rem / $font-base-unit; 
+    background-size: 100% auto;
+    color: #fff;
+    font-size: 12rem / $font-base-unit; 
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    text-align: center;
+    background-color: #f42f34;
+    line-height: 18rem / $font-base-unit; 
+}
+
+.section_item_container .time {
+    height: 18rem / $font-base-unit; 
+    line-height:18rem / $font-base-unit; 
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 12rem / $font-base-unit; 
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    padding-right: 5rem / $font-base-unit; 
+}
+
+.section_item_cont {     
+	box-sizing: border-box;
+    background-color: #fff; 
+    color: #333;
+    margin-left: 160rem / $font-base-unit; 
+}
+
+.section_item_cont .title {
+    font-size: 15rem / $font-base-unit; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #222;
+    font-weight: 500;
+}
+
+.section_item_cont .sub-title {
+    color: #666;
+    margin-top: 5rem / $font-base-unit; 
+    line-height: 1.5;
+    font-size: 12rem / $font-base-unit; 
+    overflow: hidden;
+    height: 54rem / $font-base-unit; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.section_item_bottom {
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #fff;
+    font-size: 12rem / $font-base-unit; 
+    margin-top: 12rem / $font-base-unit; 
+} 
+.section_item_bottom .read {
+    width: 42%; 
+	float:left;
+} 
+.section_item_bottom .xiaoxi {
+    width: 30%; 
+	float:left;
+}
+.section_item_bottom .like {
+    position: relative;
+    width: 28%;
+    float: right;
+}
+.section_item_bottom .iconfont, .section_item_bottom span {
+    height: 1rem;
+    line-height: 1rem;
+    margin-left: -.02666rem;
+} 
+.section_item_bottom i, .section_item_bottom span {
+    display: inline-block;
+    vertical-align: middle;
+}

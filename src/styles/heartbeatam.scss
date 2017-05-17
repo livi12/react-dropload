@@ -1,0 +1,50 @@
+/* 心砰砰的跳啊*/
+@keyframes heartbeatam
+{
+   0%   {color: #f42f34;}
+    25%  {color: red; font-size: 0.6rem;}
+    50%   {color: #f42f34;font-size: 0.4rem;}
+    75%  {color: red;font-size: 0.6rem;}
+    100% {color: #f42f34;}
+}
+@keyframes heartbeatam
+{
+0%   {color: #f42f34;}
+    25%  {color: red; font-size: 0.6rem;}
+    50%   {color: #f42f34;font-size: 0.4rem;}
+    75%  {color: red;font-size: 0.6rem;}
+    100% {color: #f42f34;}
+}
+
+@-moz-keyframes heartbeatam /* Firefox */
+{
+0%   {color: #f42f34;}
+    25%  {color: red; font-size: 0.6rem;}
+    50%   {color: #f42f34;font-size: 0.4rem;}
+    75%  {color: red;font-size: 0.6rem;}
+    100% {color: #f42f34;}
+}
+
+@-webkit-keyframes heartbeatam /* Safari 和 Chrome */
+{
+0%   {color: #f42f34;}
+    25%  {color: red; font-size: 0.6rem;}
+    50%   {color: #f42f34;font-size: 0.4rem;}
+    75%  {color: red;font-size: 0.6rem;}
+    100% {color: #f42f34;}
+}
+
+@-o-keyframes heartbeatam /* Opera */
+{
+0%   {color: #f42f34;}
+    25%  {color: red; font-size: 0.6rem;}
+    50%   {color: #f42f34;font-size: 0.4rem;}
+    75%  {color: red;font-size: 0.6rem;}
+    100% {color: #f42f34;}
+}
+.heartbeat:before{
+    animation:heartbeatam 1.3s ease  alternate; 
+    -moz-animation: heartbeatam 1.3s ease  alternate; 
+    -webkit-animation: heartbeatam 1.3s ease  alternate; 
+    -o-animation: heartbeatam 1.3s ease  alternate;
+}

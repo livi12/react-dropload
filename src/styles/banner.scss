@@ -1,0 +1,37 @@
+@import "./variables.scss"; 
+.swiper-container{
+	width:100%;
+	height: 140rem / $font-base-unit; 
+	margin-bottom:10rem /$font-base-unit; 
+} 
+.swiper-container.hidden{display:none;}
+.swiper-wrapper .swiper-slide{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+	position: absolute;
+	bottom:0;
+	right:16rem /$font-base-unit; 
+	left:auto;
+	display:inline-block;
+	z-index: 3;
+	height:20rem /$font-base-unit; 
+	vertical-align: middle;
+	line-height: 20rem/$font-base-unit; 
+} 
+.swiper-pagination .swiper-pagination-bullet{
+    width:4rem/$font-base-unit; 
+    height:4rem /$font-base-unit; 
+    background:#fff;
+    opacity: 0.7;
+    vertical-align: middle;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+    width:6rem /$font-base-unit; 
+    height:6rem /$font-base-unit; 
+    background:#fff;
+    opacity: 1;
+}

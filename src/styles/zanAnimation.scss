@@ -1,0 +1,38 @@
+/* 点赞，不错哟*/
+@keyframes zanam
+{
+    0%   {color: #f42f34;}
+    25%  {top:-0.8rem;right: 0.6rem;}
+    60%  {transform: matrix(1.0,-1.0,1.0,1.0,0,0);color:red;font-size: 0.6rem}  
+    100% {color: #f42f34;}
+}
+
+@-moz-keyframes zanam /* Firefox */
+{
+    0%   {color: #f42f34;}
+    25%  {top:-0.8rem;right: 0.6rem;}
+    60%  {transform: matrix(1.0,-1.0,1.0,1.0,0,0);color:red;font-size: 0.6rem}  
+    100% {color: #f42f34;}
+}
+
+@-webkit-keyframes zanam /* Safari 和 Chrome */
+{
+    0%   {color: #f42f34;}
+    25%  {top:-0.8rem;right: 0.6rem;}
+    60%  {transform: matrix(1.0,-1.0,1.0,1.0,0,0);color:red;font-size: 0.6rem}  
+    100% {color: #f42f34;}
+}
+
+@-o-keyframes zanam /* Opera */
+{
+    0%   {color: #f42f34;}
+    25%  {top:-0.8rem;right: 0.6rem;}
+    60%  {transform: matrix(1.0,-1.0,1.0,1.0,0,0);color:red;font-size: 0.6rem} 
+    100% {color: #f42f34;}
+}
+.zan-animation{
+    animation:zanam 2s ease  alternate; 
+    -moz-animation: zanam 2s ease  alternate; 
+    -webkit-animation: zanam 2s ease  alternate; 
+    -o-animation: zanam 2s ease  alternate;
+}

@@ -1,0 +1,30 @@
+.newsList {
+  background: #f6f6ef;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.newsListBox{
+	display: none;
+	&.active{
+		display: block;
+	}
+}
+
+.moreItem{
+	width:100%; 
+	height: 2rem;
+	border:1px solid #ccc;
+	text-align:center;
+	display:block;
+}
+
+.dropbox{
+
+  position: fixed;
+  top:13rem;
+  bottom:0;
+  left:0;
+  overflow: auto;
+  right:0; 
+}

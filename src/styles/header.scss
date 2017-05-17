@@ -1,0 +1,33 @@
+@import "./variables.scss"; 
+$banner-height:45rem /$font-base-unit; 
+.header {
+    z-index: 999;
+    width: 100%;
+    height: $banner-height; 
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: -webkit-flex; /* Safari */
+  	display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items:center;
+   font-size: 14rem/$font-base-unit; 
+}
+.header li{
+	 flex-grow:1;
+   text-align: center;
+	line-height:$banner-height;
+	&.active{
+		a{
+			color: #F42F34;
+		}
+		border-bottom:2px solid #F42F34;
+	}
+ 	a{
+ 		color:$font-base-color;
+      text-decoration: none;
+ 	}
+}
